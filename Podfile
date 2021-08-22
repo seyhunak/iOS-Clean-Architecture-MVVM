@@ -6,7 +6,6 @@ target 'ExampleMVVM' do
   use_frameworks!
 
   # Pods for ExampleMVVM
-  pod 'AppCenter'
   pod 'BitriseTrace'
 
   target 'ExampleMVVMTests' do

@@ -1,12 +1,4 @@
 PODS:
-  - AppCenter (4.2.0):
-    - AppCenter/Analytics (= 4.2.0)
-    - AppCenter/Crashes (= 4.2.0)
-  - AppCenter/Analytics (4.2.0):
-    - AppCenter/Core
-  - AppCenter/Core (4.2.0)
-  - AppCenter/Crashes (4.2.0):
-    - AppCenter/Core
   - BitriseTrace (1.7.36):
     - BitriseTrace/Trace (= 1.7.36)
   - BitriseTrace/Trace (1.7.36):
@@ -14,18 +6,15 @@ PODS:
   - BitriseTrace/TraceInternal (1.7.36)
 
 DEPENDENCIES:
-  - AppCenter
   - BitriseTrace
 
 SPEC REPOS:
   trunk:
-    - AppCenter
     - BitriseTrace
 
 SPEC CHECKSUMS:
-  AppCenter: 87ef6eefd8ade4df59e88951288587429f3dd2a5
   BitriseTrace: 95ce7ab83fcc75c199a2175a3f700803fe4bfcbb
 
-PODFILE CHECKSUM: 9c43b74d91ad393ff2dfe1e8e44e62a7652b77de
+PODFILE CHECKSUM: 1136fd3e4c79ce2a477818a3a524be0f26dea965
 
 COCOAPODS: 1.10.1
