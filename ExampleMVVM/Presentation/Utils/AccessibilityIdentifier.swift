@@ -2,7 +2,7 @@
 //  AccessibilityIdentifier.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 08.01.20.
+//  Created by   on 08.01.20.
 //
 
 import Foundation

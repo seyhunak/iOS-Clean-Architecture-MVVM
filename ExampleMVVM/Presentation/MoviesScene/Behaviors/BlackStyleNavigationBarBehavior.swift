@@ -2,7 +2,7 @@
 //  BlackStyleNavigationBarBehavior.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 26/05/2020.
+//  Created by   on 26/05/2020.
 //
 
 import UIKit

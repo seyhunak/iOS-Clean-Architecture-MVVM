@@ -2,10 +2,13 @@
 //  AppDelegate.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 01.10.18.
+//  Created by   on 01.10.18.
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+       
+        startAppcenter()
         AppAppearance.setupAppearance()
         
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -32,5 +36,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidEnterBackground(_ application: UIApplication) {
         CoreDataStorage.shared.saveContext()
+    }
+    
+    private func startAppcenter() {
+        AppCenter.start(withAppSecret: "9a84a841-bb66-4f93-a6aa-54442cab3a9c", services:[
+          Analytics.self,
+          Crashes.self
+        ])
     }
 }

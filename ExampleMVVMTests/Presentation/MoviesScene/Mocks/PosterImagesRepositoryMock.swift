@@ -2,7 +2,7 @@
 //  PosterImagesRepositoryMock.swift
 //  ExampleMVVMTests
 //
-//  Created by Oleh Kudinov on 17.08.19.
+//  Created by   on 17.08.19.
 //
 
 import Foundation

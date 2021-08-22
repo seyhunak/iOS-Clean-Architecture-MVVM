@@ -2,7 +2,7 @@
 //  FetchRecentMovieQueriesUseCase.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 11.08.19.
+//  Created by   on 11.08.19.
 //
 
 import Foundation

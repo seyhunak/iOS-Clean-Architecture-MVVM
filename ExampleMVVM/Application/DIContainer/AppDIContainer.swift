@@ -2,7 +2,7 @@
 //  DIContainer.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 01.10.18.
+//  Created by   on 01.10.18.
 //
 
 import Foundation
@@ -20,6 +20,7 @@ final class AppDIContainer {
         let apiDataNetwork = DefaultNetworkService(config: config)
         return DefaultDataTransferService(with: apiDataNetwork)
     }()
+    
     lazy var imageDataTransferService: DataTransferService = {
         let config = ApiDataNetworkConfig(baseURL: URL(string: appConfiguration.imagesBaseURL)!)
         let imagesDataNetwork = DefaultNetworkService(config: config)

@@ -2,7 +2,7 @@
 //  DataTransferServiceTests.swift
 //  ExampleMVVMTests
 //
-//  Created by Oleh Kudinov on 16.08.19.
+//  Created by   on 16.08.19.
 //
 
 import XCTest

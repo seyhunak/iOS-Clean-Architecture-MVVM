@@ -2,7 +2,7 @@
 //  LoadingView.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 28/03/2020.
+//  Created by   on 28/03/2020.
 //
 
 import UIKit

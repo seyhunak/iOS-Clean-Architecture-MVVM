@@ -2,7 +2,7 @@
 //  SearchMoviesUseCase.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 22.02.19.
+//  Created by   on 22.02.19.
 //
 
 import Foundation

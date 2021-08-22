@@ -2,7 +2,7 @@
 //  UIViewController+make.swift
 //  MoviesSearch
 //
-//  Created by Oleh Kudinov on 29/09/2020.
+//  Created by   on 29/09/2020.
 //
 
 import UIKit

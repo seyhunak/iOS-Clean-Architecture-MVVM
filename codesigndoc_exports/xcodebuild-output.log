@@ -1,0 +1,22 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/seyhunakyurek/Work/iOS-Clean-Architecture-MVVM/ExampleMVVM.xcworkspace -scheme ExampleMVVM clean archive -archivePath /var/folders/66/cncc7bvj0qgfr_yzc7bvg8t80000gn/T/__codesigndoc__307681997/ExampleMVVM.xcarchive
+
+User defaults from command line:
+    IDEArchivePathOverride = /var/folders/66/cncc7bvj0qgfr_yzc7bvg8t80000gn/T/__codesigndoc__307681997/ExampleMVVM.xcarchive
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Building targets in parallel
+note: Build preparation complete
+
+** CLEAN SUCCEEDED **
+
+note: Using new build system
+note: Building targets in parallel
+note: Planning build
+note: Analyzing workspace
+note: Constructing build description
+note: Build preparation complete
+error: An empty identity is not valid when signing a binary for the product type 'Application'. (in target 'ExampleMVVM' from project 'ExampleMVVM')
+
+** ARCHIVE FAILED **

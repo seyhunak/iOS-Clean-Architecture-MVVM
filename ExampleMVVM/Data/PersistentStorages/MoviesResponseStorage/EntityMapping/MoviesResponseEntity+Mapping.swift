@@ -2,7 +2,7 @@
 //  MoviesResponseEntity+Mapping.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 05/04/2020.
+//  Created by   on 05/04/2020.
 //
 
 import Foundation

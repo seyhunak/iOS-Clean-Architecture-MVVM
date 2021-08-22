@@ -2,7 +2,7 @@
 //  MoviesListItemViewModel.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 06/04/2020.
+//  Created by   on 06/04/2020.
 //
 // **Note**: This item view model is to display data and does not contain any domain model to prevent views accessing it
 

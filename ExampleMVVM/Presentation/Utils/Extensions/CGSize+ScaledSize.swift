@@ -2,7 +2,7 @@
 //  CGSize+ScaledSize.swift
 //  ExampleMVVM
 //
-//  Created by Oleh Kudinov on 21/03/2020.
+//  Created by   on 21/03/2020.
 //
 
 import Foundation

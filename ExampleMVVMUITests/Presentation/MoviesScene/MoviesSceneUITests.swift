@@ -2,7 +2,7 @@
 //  MoviesSceneUITests.swift
 //  MoviesSceneUITests
 //
-//  Created by Oleh Kudinov on 05.08.19.
+//  Created by   on 05.08.19.
 //
 
 import XCTest
