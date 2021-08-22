@@ -888,7 +888,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F02DE3922F8507500E40C3A /* Build configuration list for PBXNativeTarget "ExampleMVVMUITests" */;
 			buildPhases = (
-				D095D8347FB572013BF97D96 /* [CP] Check Pods Manifest.lock */,
+				D095D8347FB572013BF97D96 /* Check Pods Manifest.lock */,
 				1F02DE2E22F8507500E40C3A /* Sources */,
 				1F02DE2F22F8507500E40C3A /* Frameworks */,
 				1F02DE3022F8507500E40C3A /* Resources */,
@@ -925,7 +925,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA533A9201E1FDE00747E55 /* Build configuration list for PBXNativeTarget "ExampleMVVMTests" */;
 			buildPhases = (
-				8087E743D8097DBD32DEB880 /* [CP] Check Pods Manifest.lock */,
+				8087E743D8097DBD32DEB880 /* Check Pods Manifest.lock */,
 				1FA53399201E1FDE00747E55 /* Sources */,
 				1FA5339A201E1FDE00747E55 /* Frameworks */,
 				1FA5339B201E1FDE00747E55 /* Resources */,
@@ -1020,7 +1020,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8087E743D8097DBD32DEB880 /* [CP] Check Pods Manifest.lock */ = {
+		8087E743D8097DBD32DEB880 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1031,7 +1031,7 @@
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -1064,7 +1064,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D095D8347FB572013BF97D96 /* [CP] Check Pods Manifest.lock */ = {
+		D095D8347FB572013BF97D96 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1075,7 +1075,7 @@
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
