@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		014690DBCE664E705F1AE858 /* Pods_ExampleMVVM_ExampleMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7699CB819059496ED8F83 /* Pods_ExampleMVVM_ExampleMVVMUITests.framework */; };
+		06E9821E26D24965001450C1 /* bitrise_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06E9821D26D24964001450C1 /* bitrise_configuration.plist */; };
 		1F02DE3522F8507500E40C3A /* MoviesSceneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02DE3422F8507500E40C3A /* MoviesSceneUITests.swift */; };
 		1F05A6CC2220A2CB001E2801 /* SearchMoviesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05A6CB2220A2CB001E2801 /* SearchMoviesUseCase.swift */; };
 		1F0CEFCF23436B67004141FA /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0CEFCE23436B67004141FA /* ConnectionError.swift */; };
@@ -134,6 +135,7 @@
 
 /* Begin PBXFileReference section */
 		03E344E91E07DBEE7FC47425 /* Pods-ExampleMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleMVVMTests/Pods-ExampleMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06E9821D26D24964001450C1 /* bitrise_configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bitrise_configuration.plist; sourceTree = "<group>"; };
 		11C4AA91FAA5683B179339BC /* Pods-ExampleMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleMVVM.release.xcconfig"; path = "Target Support Files/Pods-ExampleMVVM/Pods-ExampleMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		1F02DE3222F8507500E40C3A /* ExampleMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F02DE3422F8507500E40C3A /* MoviesSceneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSceneUITests.swift; sourceTree = "<group>"; };
@@ -460,6 +462,7 @@
 		1FA53380201E1FDE00747E55 = {
 			isa = PBXGroup;
 			children = (
+				06E9821D26D24964001450C1 /* bitrise_configuration.plist */,
 				1FA5338B201E1FDE00747E55 /* ExampleMVVM */,
 				1FA533A0201E1FDE00747E55 /* ExampleMVVMTests */,
 				1F02DE3322F8507500E40C3A /* ExampleMVVMUITests */,
@@ -1001,6 +1004,7 @@
 				1FF082B3239438DC00876A22 /* Localizable.strings in Resources */,
 				1FA53397201E1FDE00747E55 /* LaunchScreen.storyboard in Resources */,
 				1FE49D88230AA7C200D1D42E /* MovieDetailsViewController.storyboard in Resources */,
+				06E9821E26D24965001450C1 /* bitrise_configuration.plist in Resources */,
 				1FA53394201E1FDE00747E55 /* Assets.xcassets in Resources */,
 				1FE49D86230AA7C200D1D42E /* MoviesQueriesTableViewController.storyboard in Resources */,
 			);
