@@ -7,6 +7,7 @@ target 'ExampleMVVM' do
 
   # Pods for ExampleMVVM
   pod 'AppCenter'
+  pod 'BitriseTrace'
 
   target 'ExampleMVVMTests' do
     inherit! :search_paths
